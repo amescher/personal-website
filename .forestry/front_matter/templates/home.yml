@@ -13,5 +13,15 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: personal_introduction
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Personal Introduction
+  description: Only on homepage
 pages:
 - portfolio/index.md
